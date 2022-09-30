@@ -62,7 +62,7 @@ if __name__ == "__main__":
     gui = Tk()
  
     # set the background colour of GUI window
-    gui.configure(background="light green")
+    gui.configure(background="light yellow")
  
     # set the title of GUI window
     gui.title("Simple Calculator")
@@ -145,7 +145,7 @@ if __name__ == "__main__":
  
     equal = Button(gui, text=' = ', fg='black', bg='grey',
                 command=equalpress,  height=3, width=10)
-    equal.grid(row=5, column=2,padx=22,pady=22)
+    equal.grid(row=6, column=3,padx=22,pady=22)
  
     clear = Button(gui, text='Clear', fg='black', bg='grey',
                 command=clear,  height=3, width=10)
